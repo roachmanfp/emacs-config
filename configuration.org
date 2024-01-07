@@ -279,5 +279,10 @@ nrequired packages on the system to compile the viewer.
   :mode ("\\.yaml\\'" . yaml-mode))
 #+end_src
 
+*** Mermaid
+Useful for diagrams
+#+begin_src emacs-lisp
+(use-package mermaid-mode)
+#+end_src
 
 
